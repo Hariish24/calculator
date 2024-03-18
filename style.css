@@ -11,6 +11,33 @@ body {
 }  
 
 
+nav {
+    background:transparent;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menu a{
+    font-size: 1rem;
+    transition: 0.2ms;
+
+}  
+
+
 .app {
     display: flex;
     justify-content: center;
