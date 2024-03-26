@@ -10,7 +10,10 @@ body {
     background-color:hsl(0, 0%, 0%); 
 }  
 
-
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
 nav {
     background:transparent;
     width: 100%;
@@ -31,21 +34,27 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.nav_container a {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 900;
+    text-decoration: none;
+}
 .nav_menu a{
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-style: 100s;
     transition: 0.2ms;
-
 }  
-
 
 .app {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: 2.5rem;
 }
  .calculator {
-    background-color: #22252D;
+    background-color: #b3c7ff;
     width: 100%;
     max-width: 375px;
     min-width: 640px;
@@ -62,6 +71,7 @@ nav {
     justify-content: flex-end;
     align-items: flex-end;
     color: white;
+    
  }
 
  .display .input {
