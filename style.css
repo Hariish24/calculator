@@ -54,7 +54,8 @@ nav {
     margin-top: 2.5rem;
 }
  .calculator {
-    background-color: #b3c7ff;
+    background-color: #ffffff;
+    /* color: #262933; */
     width: 100%;
     max-width: 375px;
     min-width: 640px;
@@ -76,10 +77,12 @@ nav {
 
  .display .input {
      font-size: 3rem;
+     color: #262933;
      margin-bottom: 0.5rem;
  }
  
  .display .output {
+    color: #262933;
     font-size: 3rem;
     font-weight: 700;
     width: 100%;
